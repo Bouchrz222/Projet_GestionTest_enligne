@@ -23,7 +23,7 @@ Cette application permet de gérer des tests en ligne pour des candidats, avec u
 ## Démarrage rapide
 
 ### Backend (Jakarta EE)
-1. Installer WildFly ou Payara
+1. Installer WildFly
 2. Déployer le fichier WAR
 3. Configurer la base de données MySQL
 
