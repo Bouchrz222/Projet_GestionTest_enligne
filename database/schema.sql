@@ -138,16 +138,4 @@ CREATE TABLE administrateurs (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Index pour optimisation
-CREATE INDEX idx_questions_theme ON questions(id_theme);
-CREATE INDEX idx_questions_type ON questions(id_type_question);
-CREATE INDEX idx_reponses_question ON reponses_possibles(id_question);
-CREATE INDEX idx_candidats_email ON candidats(email);
-CREATE INDEX idx_candidats_code ON candidats(code_session);
-CREATE INDEX idx_sessions_candidat ON sessions_test(id_candidat);
-CREATE INDEX idx_sessions_code ON sessions_test(code_session);
-CREATE INDEX idx_session_questions_session ON session_questions(id_session);
-CREATE INDEX idx_reponses_session_question ON reponses_candidat(id_session_question);
-CREATE INDEX idx_inscriptions_candidat ON inscriptions(id_candidat);
-CREATE INDEX idx_inscriptions_creneau ON inscriptions(id_creneau);
-CREATE INDEX idx_creneaux_date ON creneaux_horaires(date_exam);
+
