@@ -1,4 +1,4 @@
-# Application de Gestion des Tests en Ligne
+# Gestion des Tests en Ligne
 
 Application web complète permettant la **gestion, le passage et l’évaluation de tests en ligne**, destinée aux candidats et aux administrateurs.  
 Elle propose une interface moderne, un système de sessions chronométrées et un suivi détaillé des résultats.
@@ -61,5 +61,9 @@ Projet_GestionTest_enligne/
 │   └── schema.sql  # Schéma de la base de données
 └── README.md
 
-Réalisé par
+
+## Routage
+
+Le routage est géré par React Router avec des routes protégées pour l'administration.
+
 Bouchra Azirar
