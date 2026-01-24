@@ -61,9 +61,11 @@ Projet_GestionTest_enligne/
 │   └── schema.sql  # Schéma de la base de données
 └── README.md
 
+---
 
 ## Routage
 
 Le routage est géré par React Router avec des routes protégées pour l'administration.
 
 Bouchra Azirar
+
