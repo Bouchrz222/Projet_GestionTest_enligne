@@ -3,13 +3,11 @@
 Application web complète permettant la **gestion, le passage et l’évaluation de tests en ligne**, destinée aux candidats et aux administrateurs.  
 Elle propose une interface moderne, un système de sessions chronométrées et un suivi détaillé des résultats.
 
----
 
 ## Vidéo de démonstration
 **Lien de la vidéo (présentation & démonstration de l’application)** :  
 https://drive.google.com/file/d/1hOA7i1qP5j4WcGkqLdG1kN_qvDDUH-uR/view?usp=drive_link
 
----
 
 ## Fonctionnalités principales
 
@@ -28,7 +26,7 @@ https://drive.google.com/file/d/1hOA7i1qP5j4WcGkqLdG1kN_qvDDUH-uR/view?usp=drive
 - Visualisation et suivi des résultats
 - Tableau de bord administratif
 
----
+
 
 ## Technologies utilisées
 
@@ -48,7 +46,10 @@ https://drive.google.com/file/d/1hOA7i1qP5j4WcGkqLdG1kN_qvDDUH-uR/view?usp=drive
 - **MySQL**
 - **XAMPP**
 
----
+## Routage
+
+Le routage est géré par React Router avec des routes protégées pour l'administration.
+
 
 ## Structure du projet
 
@@ -60,12 +61,4 @@ Projet_GestionTest_enligne/
 ├── database/       # Scripts SQL
 │   └── schema.sql  # Schéma de la base de données
 └── README.md
-
----
-
-## Routage
-
-Le routage est géré par React Router avec des routes protégées pour l'administration.
-
-Bouchra Azirar
 
