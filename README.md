@@ -1,40 +1,62 @@
 # Application de Gestion des Tests en Ligne
+
+Application web complète permettant la **gestion, le passage et l’évaluation de tests en ligne**, destinée aux candidats et aux administrateurs.  
+Elle offre une interface moderne, un système de sessions de test chronométrées et un suivi détaillé des résultats.
+
+---
+
 ## 🎥 Vidéo de démonstration
 
-👉 Lien de la vidéo :  
+👉 **Lien de la vidéo (présentation & démonstration)** :  
 https://drive.google.com/file/d/1hOA7i1qP5j4WcGkqLdG1kN_qvDDUH-uR/view?usp=drive_link
 
-## Description
-Cette application permet de gérer des tests en ligne pour des candidats, avec un suivi des résultats et une interface d'administration complète.
+---
 
-- **Backend** : Jakarta EE (WildFly)
-- **Frontend** : React.js
-- **Base de données** : MySQL (XAMPP)
-- **Communication** : REST API
+## Fonctionnalités principales
 
-## Modules principaux
-1. **Gestion des candidats** : Inscription, connexion, choix de créneaux
-2. **Gestion des tests** : Passage des tests avec timer automatique
-3. **Gestion des résultats** : Calcul et affichage des résultats
-4. **Administration** : Gestion des questions, paramètres et visualisation des tests
+### Espace Candidat
+- Inscription et authentification sécurisée
+- Consultation des créneaux disponibles
+- Passage des tests avec **timer automatique**
+- Affichage du score et du pourcentage final
+- Récupération du code de session par email
 
-## Installation
-1. Installer XAMPP et activer MySQL
-2. Importer le schéma de la base de données (`database/schema.sql`) et les données initiales (`database/data.sql`)
-3. Démarrer le backend Jakarta EE (déployer le WAR généré par Maven)
-4. Démarrer l'application React
+### Espace Administrateur
+- Gestion des candidats
+- Gestion des tests et des sessions
+- Gestion des questions (QCM, vrai/faux, etc.)
+- Consultation et suivi des résultats
+- Tableau de bord administratif
 
-## Démarrage rapide
+---
 
-### Backend (Jakarta EE)
-1. Installer WildFly
-2. Déployer le fichier WAR
-3. Configurer la base de données MySQL
+## Architecture & Technologies
 
-### Frontend (React)
-```bash
-cd frontend
-npm install
-npm start
+### Backend
+- **Jakarta EE**
+- **WildFly**
+- **JPA / Hibernate**
+- **RESTful API**
 
+### Frontend
+- **React.js**
+- **React Router**
+- **Axios**
+- **Tailwind CSS / CSS**
 
+### Base de données
+- **MySQL**
+- **XAMPP**
+
+---
+
+## Structure du projet
+
+```text
+Projet_GestionTest_enligne/
+│
+├── backend/        # Application Jakarta EE (API REST)
+├── frontend/       # Application React
+├── database/       # Scripts SQL (schéma + données)
+│   |__ schema.sql
+└── README.md
