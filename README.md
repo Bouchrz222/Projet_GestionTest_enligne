@@ -5,7 +5,7 @@ Elle propose une interface moderne, un système de sessions chronométrées et u
 
 ---
 
-## 🎥 Vidéo de démonstration
+## Vidéo de démonstration
 **Lien de la vidéo (présentation & démonstration de l’application)** :  
 https://drive.google.com/file/d/1hOA7i1qP5j4WcGkqLdG1kN_qvDDUH-uR/view?usp=drive_link
 
@@ -13,7 +13,7 @@ https://drive.google.com/file/d/1hOA7i1qP5j4WcGkqLdG1kN_qvDDUH-uR/view?usp=drive
 
 ## Fonctionnalités principales
 
-### 👤 Espace Candidat
+### Espace Candidat
 - Inscription et connexion sécurisées
 - Consultation et choix des créneaux disponibles
 - Passage des tests avec **timer automatique**
@@ -21,7 +21,7 @@ https://drive.google.com/file/d/1hOA7i1qP5j4WcGkqLdG1kN_qvDDUH-uR/view?usp=drive
 - Affichage des résultats à la fin du test
 - Récupération du code de session par email
 
-### 🛠️ Espace Administrateur
+### Espace Administrateur
 - Gestion des candidats
 - Gestion des tests et des sessions
 - Gestion des questions
